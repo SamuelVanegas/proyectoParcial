@@ -66,10 +66,10 @@
             mayor = auxiliar(0)
             posicionmayor = 0
             For contador = 0 To 14
-                If auxiliar(contador) > mayor Then
-                    posicionmayor = contador
+                If auxiliar(contado contador
                     mayor = auxiliar(contador)
-
+                    r) > mayor Then
+                    posicionmayor =
                 End If
 
             Next
@@ -78,8 +78,30 @@
             Console.ReadLine()
 
 
+<<<<<<< HEAD
 
 
+=======
+        ElseIf (opc = 3) Then
+            Console.WriteLine("")
+
+
+        ElseIf (opc = 4) Then
+
+            For i = 0 To 14 Step 1
+                Console.WriteLine("Ingrese el valor: " & i + 1)
+                valores(i) = Console.ReadLine()
+                suma += valores(i)
+            Next
+
+            Array.Sort(valores)
+            Console.WriteLine("")
+            Console.WriteLine("Número menor: " & valores(valores.Length = 0))
+            Console.WriteLine("Número mayor: " & valores(valores.Length - 1))
+            Console.WriteLine("Pulse ENTER")
+            Console.ReadLine()
+
+>>>>>>> desarrollador
         End If
 
     End Sub
