@@ -77,6 +77,11 @@
             Console.WriteLine("Pulse ENTER")
             Console.ReadLine()
 
+
+        ElseIf (opc = 3) Then
+            Console.WriteLine("")
+
+
         ElseIf (opc = 4) Then
 
             For i = 0 To 14 Step 1
