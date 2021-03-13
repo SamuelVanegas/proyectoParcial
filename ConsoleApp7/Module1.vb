@@ -78,10 +78,6 @@
             Console.ReadLine()
 
 
-<<<<<<< HEAD
-
-
-=======
         ElseIf (opc = 3) Then
             Console.WriteLine("")
 
@@ -101,7 +97,6 @@
             Console.WriteLine("Pulse ENTER")
             Console.ReadLine()
 
->>>>>>> desarrollador
         End If
 
     End Sub
